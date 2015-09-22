@@ -287,7 +287,7 @@ function draw_bus(responseXML){
         result += "<tr>";
         for ( j = 0; j < 5; j++){
             if (indexableseats[i][j] != null){
-                result += "<td class=" + indexableseats[i][j].getElementsByTagName("price")[0].childNodes[0].nodeValue + " onmousedown='save_place(this.id)' onmouseup='swap_places(this.id)' " +
+                result += "<td class=" + indexableseats[i][j].getElementsByTagName("price")[0].childNodes[0].nodeValue + " onClick='choosePlace(this)' " +
                 "id=" + indexableseats[i][j].getElementsByTagName("id")[0].childNodes[0].nodeValue + "" +
                     ">" + indexableseats[i][j].getElementsByTagName("place_num")[0].childNodes[0].nodeValue + "" +
                     "</td>";
@@ -514,17 +514,3 @@ function show_buses_autocomplete() {
     }
 }
 
-var first_id = 0;
-
-function save_place(id){
-    first_id = id;
-}
-
-function swap_place(second_id){
-    data = "first_id=" + first_id + "&second_id=" + second_id;
-    req = initRequest();
-    req.open("POST", "swap_seats", true);
-    req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-    req.onreadystatechange = callback;
-    req.send(data);
-}

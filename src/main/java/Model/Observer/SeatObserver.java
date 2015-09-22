@@ -30,9 +30,9 @@ public abstract class SeatObserver {
     public static ArrayList<SeatPlaceWithPrice> selectSeatsWithPrice(long tripId) {
         ArrayList<SeatPlaceWithPrice> res = new ArrayList<SeatPlaceWithPrice>();
         ResultSet resultSet = null;
-        String query = "SELECT seats.Id, seats.seat_num, seats.price, seats.availability, bus_config.row, bus.config.place FROM bus_config, seats WHERE bus_config.bus = (SELECT bus FROM trips WHERE Id = " + tripId + ")" +
-                "AND seats.seat_num = bus_config.seat " +
-                "AND seats.bus = (SELECT bus FROM trips WHERE Id = " + tripId + ")";
+        String query = "SELECT seats.Id, seats.seat_num, seats.price, seats.availability, bus_config.row, bus_config.place FROM bus_config, seats, trips WHERE bus_config.bus = trips.bus " +
+                "AND bus_config.seat = seats.seat_num " +
+                "AND trips.Id = " + tripId;
         DBWorker dbWorker = new DBWorker();
         resultSet = dbWorker.executeQuery(query);
         try {

@@ -1,9 +1,7 @@
 package servlets.Manager;
 
 import Model.Entity.City;
-import Model.Observer.BusConfigObserver;
-import Model.Observer.CitiesObserver;
-import Model.Observer.SeatPlace;
+import Model.Observer.*;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
@@ -35,7 +33,8 @@ public class ShowBusConfig extends HttpServlet {
 
         long tripId = Long.parseLong(request.getParameter("tripId"));
 
-        ArrayList<SeatPlace> seatPlaces = BusConfigObserver.busConfig(tripId);
+        //ArrayList<SeatPlaceWithPrice> seatPlaces = BusConfigObserver.busConfig(tripId);
+        ArrayList<SeatPlaceWithPrice> seatPlaces = SeatObserver.selectSeatsWithPrice(tripId);
 
         StringBuffer sb = new StringBuffer();
 
@@ -43,6 +42,8 @@ public class ShowBusConfig extends HttpServlet {
             sb.append("<seat>");
             sb.append("<id>" + seatPlaces.get(i).getSeatId() + "</id>");
             sb.append("<place_num>" + seatPlaces.get(i).getSeat_num() + "</place_num>");
+            sb.append("<price>" + seatPlaces.get(i).getPrice() + "</price>");
+            sb.append("<availability>" + seatPlaces.get(i).getAvailability() + "</availability>");
             sb.append("<row>" + seatPlaces.get(i).getRow() + "</row>");
             sb.append("<place>" + seatPlaces.get(i).getPlace() + "</place>");
             sb.append("</seat>");
