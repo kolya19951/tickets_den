@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * Created by ????? on 14.09.2015.
  */
 public abstract class BusConfigObserver {
-    public static ArrayList<SeatPlace> busConfig(int tripId) {
+    public static ArrayList<SeatPlace> busConfig(long tripId) {
         ArrayList<SeatPlace> res = new ArrayList<SeatPlace>();
         ResultSet resultSet = null;
         String query = "SELECT Id, seat,row,place FROM bus_config WHERE bus = (SELECT bus FROM trips WHERE Id = " + tripId + ")";

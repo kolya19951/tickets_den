@@ -22,11 +22,11 @@ public class ComposerData {
 
         //cities.put(1, new Composer("1", "Johann Sebastian", "Bach", "Baroque"));
 
-        ArrayList<City> citiesList = CitiesObserver.selectCities();
+       // ArrayList<City> citiesList = CitiesObserver.selectCities(lang);
 
-        for (int i = 0; i < citiesList.size(); i++){
-            cities.put((Integer)i, citiesList.get(i));
-        }
+        //for (int i = 0; i < citiesList.size(); i++){
+         //   cities.put((Integer)i, citiesList.get(i));
+        //}
 
 
     }

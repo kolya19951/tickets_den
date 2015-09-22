@@ -17,6 +17,12 @@ import java.io.IOException;
 public class NewPay extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        if(session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
+
         request.setCharacterEncoding("UTF-8");
         String ik_co_id = request.getParameter("ik_co_id");
         String ik_pm_no = request.getParameter("ik_pm_no");

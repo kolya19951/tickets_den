@@ -13,7 +13,14 @@ public abstract class RouteManager {
         dbWorker.closeConnection();
     }
 
-    static public void delete(int id) {
+    static public void update(long id, long from, long to) {
+        String query = "UPDATE routes SET from_station = " + from + ", to_station = " + to +" WHERE Id = " + id;
+        DBWorker dbWorker = new DBWorker();
+        dbWorker.execute(query);
+        dbWorker.closeConnection();
+    }
+
+    static public void delete(long id) {
         String query = "DELETE FROM routes WHERE Id = " + id;
         DBWorker dbWorker = new DBWorker();
         dbWorker.execute(query);

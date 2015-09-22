@@ -9,9 +9,9 @@ import java.util.ArrayList;
  */
 public class City {
     private String name;
-    private int id;
+    private long id;
 
-    public City(int id, String name) {
+    public City(long id, String name) {
         this.id = id;
         this.name = name;
 
@@ -51,7 +51,7 @@ public class City {
         return name;
     }*/
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 

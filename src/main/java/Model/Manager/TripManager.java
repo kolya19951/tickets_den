@@ -27,7 +27,7 @@ public abstract class TripManager {
         dbWorker.closeConnection();
     }
 
-    static public void delete(int id) {
+    static public void delete(long id) {
         DBWorker dbWorker=  new DBWorker();
         String query = "DELETE FROM trips WHERE Id = " + id;
         dbWorker.execute(query);

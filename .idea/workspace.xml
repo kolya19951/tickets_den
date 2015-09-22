@@ -1,14 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dbbe0e0-6d3f-471f-8329-f7ff5e3aa3f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tickets.iml" />
+    <list default="true" id="41226eeb-2fee-469b-83aa-4deda4e8e801" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Adminka.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Autocomplition2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/BusMangerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/BusObserer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/ChangeLanguage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/CitiesManagerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/LanguagesObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ManagerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/RouteManagerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/RoutesObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlaceWithPrice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowBus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowBusConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowCity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowLanguages.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowRoute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowRoutesByCities.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStationsByCity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowTrip.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/StationsObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/TicketsForAdmin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlets/Manager/TripManagerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/adminka.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/script.js" />
+      <change type="DELETED" beforePath="D:\java\_FL\tickets\.idea\libraries\Java_EE_6_Java_EE_6.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Autocomplition.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Autocomplition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/Autocomplition.class" afterPath="$PROJECT_DIR$/target/classes/servlets/Autocomplition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/Bus.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/Bus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Entity/Bus.class" afterPath="$PROJECT_DIR$/target/classes/Model/Entity/Bus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/BusConfigManager.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/BusConfigManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Manager/BusConfigManager.class" afterPath="$PROJECT_DIR$/target/classes/Model/Manager/BusConfigManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/BusManager.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/BusManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Manager/BusManager.class" afterPath="$PROJECT_DIR$/target/classes/Model/Manager/BusManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/CitiesManager.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/CitiesManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Manager/CitiesManager.class" afterPath="$PROJECT_DIR$/target/classes/Model/Manager/CitiesManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Observer/CitiesObserver.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Observer/CitiesObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Observer/CitiesObserver.class" afterPath="$PROJECT_DIR$/target/classes/Model/Observer/CitiesObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/City.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/City.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Entity/City.class" afterPath="$PROJECT_DIR$/target/classes/Model/Entity/City.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/ClientsManager.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/ClientsManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Manager/ClientsManager.class" afterPath="$PROJECT_DIR$/target/classes/Model/Manager/ClientsManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Hash/ComposerData.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Hash/ComposerData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Hash/ComposerData.class" afterPath="$PROJECT_DIR$/target/classes/Model/Hash/ComposerData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Contacts.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Contacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/Contacts.class" afterPath="$PROJECT_DIR$/target/classes/servlets/Contacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/database/DBConnector.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/database/DBConnector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/database/DBConnector.class" afterPath="$PROJECT_DIR$/target/classes/database/DBConnector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Home.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Home.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/Home.class" afterPath="$PROJECT_DIR$/target/classes/servlets/Home.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Info.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Info.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/Info.class" afterPath="$PROJECT_DIR$/target/classes/servlets/Info.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/NewPay.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/NewPay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/NewPay.class" afterPath="$PROJECT_DIR$/target/classes/servlets/NewPay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/Route.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/Route.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Entity/Route.class" afterPath="$PROJECT_DIR$/target/classes/Model/Entity/Route.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/RouteManager.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/RouteManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Manager/RouteManager.class" afterPath="$PROJECT_DIR$/target/classes/Model/Manager/RouteManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/SearchTrips.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/SearchTrips.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/SearchTrips.class" afterPath="$PROJECT_DIR$/target/classes/servlets/SearchTrips.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/SeatManager.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/SeatManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Manager/SeatManager.class" afterPath="$PROJECT_DIR$/target/classes/Model/Manager/SeatManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/Station.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/Station.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Entity/Station.class" afterPath="$PROJECT_DIR$/target/classes/Model/Entity/Station.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/StationManager.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/StationManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Manager/StationManager.class" afterPath="$PROJECT_DIR$/target/classes/Model/Manager/StationManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Step2.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Step2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/Step2.class" afterPath="$PROJECT_DIR$/target/classes/servlets/Step2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Step3.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Step3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/Step3.class" afterPath="$PROJECT_DIR$/target/classes/servlets/Step3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/SuccessResult.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/SuccessResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/SuccessResult.class" afterPath="$PROJECT_DIR$/target/classes/servlets/SuccessResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Tickets.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/servlets/Tickets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlets/Tickets.class" afterPath="$PROJECT_DIR$/target/classes/servlets/Tickets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/Trip.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Entity/Trip.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Entity/Trip.class" afterPath="$PROJECT_DIR$/target/classes/Model/Entity/Trip.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/TripManager.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Manager/TripManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Manager/TripManager.class" afterPath="$PROJECT_DIR$/target/classes/Model/Manager/TripManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Observer/TripObserver.class" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/WEB-INF/classes/Model/Observer/TripObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/Observer/TripObserver.class" afterPath="$PROJECT_DIR$/target/classes/Model/Observer/TripObserver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/Autocomplition.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/Autocomplition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Entity/Bus.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Entity/Bus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Observer/BusConfigObserver.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/BusConfigObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Manager/CitiesManager.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Manager/CitiesManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Observer/CitiesObserver.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/CitiesObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Entity/City.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Entity/City.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Manager/ClientsManager.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Manager/ClientsManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Hash/ComposerData.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Hash/ComposerData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/Contacts.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/Contacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/database/DBConnector.java" afterPath="$PROJECT_DIR$/src/main/java/database/DBConnector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/Home.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/Home.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/Info.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/Info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/NewPay.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/NewPay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Entity/Route.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Entity/Route.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Manager/RouteManager.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Manager/RouteManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/SearchTrips.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/SearchTrips.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Manager/SeatManager.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Manager/SeatManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Observer/SeatObserver.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/SeatObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlace.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Observer/SeatViewer.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/SeatViewer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Entity/Station.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Entity/Station.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Manager/StationManager.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Manager/StationManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/Step2.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/Step2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/Step3.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/Step3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/SuccessResult.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/SuccessResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tickets.iml" afterPath="$PROJECT_DIR$/Tickets.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/Tickets.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/Tickets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Entity/Trip.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Entity/Trip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Manager/TripManager.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Manager/TripManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/Observer/TripObserver.java" afterPath="$PROJECT_DIR$/src/main/java/Model/Observer/TripObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/index.jsp" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/javascript.js" afterPath="$PROJECT_DIR$/src/main/webapp/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/javascript.js" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/main.iml" afterPath="$PROJECT_DIR$/src/main/main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/reservation.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/reservation.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/reservation.jsp" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/reservation.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/styles.css" afterPath="$PROJECT_DIR$/target/Tickets-1.0-SNAPSHOT/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tickets.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,41 +154,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuccessResult.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/SuccessResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51742625">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmtpAuthenticator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Mail/ssl/SmtpAuthenticator.java">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="51" />
+              <caret line="230" column="15" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!block;n#sendAdminPanel#0" expanded="false" />
+                <element signature="n#!!block;n#initRequest#0" expanded="false" />
+                <element signature="n#!!block;n#callbackBus#0" expanded="false" />
+                <element signature="n#!!block;n#show_bus#0" expanded="false" />
+                <element signature="n#!!block;n#show_city#0" expanded="false" />
+                <element signature="n#!!block;n#show_station#0" expanded="false" />
+                <element signature="n#!!block;n#show_routes#0" expanded="false" />
+                <element signature="n#!!block;n#show_trips#0" expanded="false" />
+                <element signature="n#!!block;n#getData#0" expanded="false" />
+                <element signature="n#!!block;n#changeAdminPanel#0" expanded="false" />
+                <element signature="n#!!block;n#delete_bus#0" expanded="false" />
+                <element signature="n#!!block;n#edit_bus#0" expanded="false" />
+                <element signature="n#!!block;n#delete_city#0" expanded="false" />
+                <element signature="n#!!block;n#delete_station#0" expanded="false" />
+                <element signature="n#!!block;n#edit_city#0" expanded="false" />
+                <element signature="n#!!block;n#edit_station#0" expanded="false" />
+                <element signature="n#!!block;n#delete_route#0" expanded="false" />
+                <element signature="n#!!block;n#delete_trip#0" expanded="false" />
+                <element signature="n#!!block;n#show_station_autocomplete#0" expanded="false" />
+                <element signature="n#!!block;n#show_routes_autocomplete#0" expanded="false" />
+                <element signature="n#!!block;n#show_buses_autocomplete#0" expanded="false" />
+                <marker date="1442888138154" expanded="true" signature="5428:5440" placeholder="..." />
+                <marker date="1442888138154" expanded="true" signature="5442:5453" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowBusConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowBusConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81984335">
+              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowCity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowCity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeatPlace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <element signature="method#getIdXY#0;class#SeatPlace#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeatPlaceWithPrice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlaceWithPrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+              <folding>
+                <element signature="method#getIdXY#0;class#SeatPlaceWithPrice#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeatObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/SeatObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
+              <folding>
+                <element signature="e#381#387#0" expanded="true" />
+                <element signature="e#1075#1095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminka.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/adminka.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.73077">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Mail/ssl/Sender.java">
+      <file leaf-file-name="BusConfigObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/BusConfigObserver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="e#387#398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeatViewer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/SeatViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="step2.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/step2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -71,7 +296,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Tag Library Descriptor" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -87,43 +312,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/success.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/Model/Hash/ComposerData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Model/Hash/Composer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Model/Entity/City.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Autocomplition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Step1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/TripObserver.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/reset.css" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Step2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/SearchTrips.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/TripManagerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Adminka.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/Contacts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Info.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/home.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/reservation.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/payment/Payment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/DBWorker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/NewPay.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/javascript.js" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/Step3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Mail/tls/Sender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/DBConnector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Mail/ssl/PasswordAuthentication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Mail/ssl/SmptAuthenticator.java" />
-        <option value="$PROJECT_DIR$/src/main/main.iml" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/Home.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/Mail/ssl/Sender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/NewPay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Step2.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/SuccessResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Mail/ssl/SmtpAuthenticator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/info.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/step2.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/step3.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/contacts.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/BusMangerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ManagerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowCity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Hash/ComposerData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Tickets.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Autocomplition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Autocomplition2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/LanguagesObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowLanguages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/ChangeLanguage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/SearchTrips.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/CitiesManagerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entity/Route.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entity/Station.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entity/City.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Entity/Trip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/Stations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Manager/StationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowRoute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/TripObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowTrip.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/reservation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/StationsObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStationsByCity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowRoutsByCities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowRoutesByCities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/RoutesObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/javascript.js" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Step3.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/adminka.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/BusObserer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/BusConfigObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/SeatViewer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/script.js" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlaceWithPrice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Observer/SeatObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/Manager/ShowBusConfig.java" />
       </list>
     </option>
   </component>
@@ -143,11 +382,6 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -194,7 +428,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -203,7 +437,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="false" />
+      <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -212,7 +446,6 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,30 +525,8 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mail" />
+              <option name="myItemId" value="servlets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,99 +552,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mail" />
+              <option name="myItemId" value="servlets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ssl" />
+              <option name="myItemId" value="Manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tickets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.33793104" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java\tickets\src\main\webapp" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\java\tickets\src\main\webapp\WEB-INF" />
-      <recent name="F:\java\tickets\src\main\webapp" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat 7">
+  <component name="RunManager" selected="Tomcat Server.tomcat 8">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_tickets" />
-      </server-settings>
+      <server-settings />
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55479" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -707,7 +904,7 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.64" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.24" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Tickets:war">
@@ -717,7 +914,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_tickets" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_tickets_5" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -726,7 +923,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55456" />
+        <option name="DEBUG_PORT" value="5958" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -780,7 +977,7 @@
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat 7" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat 8" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -789,50 +986,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2dbbe0e0-6d3f-471f-8329-f7ff5e3aa3f7" name="Default" comment="" />
-      <created>1442339435999</created>
+      <changelist id="41226eeb-2fee-469b-83aa-4deda4e8e801" name="Default" comment="" />
+      <created>1442541925029</created>
       <option name="number" value="Default" />
-      <updated>1442339435999</updated>
-      <workItem from="1442339437565" duration="1223000" />
-      <workItem from="1442343416773" duration="12095000" />
-      <workItem from="1442387303751" duration="36551000" />
-      <workItem from="1442482799794" duration="31052000" />
-      <workItem from="1442517375081" duration="4508000" />
-      <workItem from="1442522034035" duration="4757000" />
+      <updated>1442541925029</updated>
+      <workItem from="1442541932302" duration="23740000" />
+      <workItem from="1442692073425" duration="11171000" />
+      <workItem from="1442754390616" duration="4653000" />
+      <workItem from="1442834105299" duration="49575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90186000" />
+    <option name="totallyTimeSpent" value="89139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26058632" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14447807" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61990213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.49394855" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34477124" sideWeight="0.40468988" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21331316" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34477124" sideWeight="0.59531015" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46982056" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25567323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.47881997" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4003268" sideWeight="0.7639939" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -860,49 +1056,171 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlets/NewPay.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Observer/TripObserver.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java</url>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/payment/Payment.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java</url>
+          <line>49</line>
           <properties />
-          <option name="timeStamp" value="55" />
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlets/SearchTrips.java</url>
-          <line>8</line>
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java</url>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="56" />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlets/NewPay.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java</url>
           <line>51</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/StationManager.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStationsByCity.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStationsByCity.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStationsByCity.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStationsByCity.java</url>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlets/SuccessResult.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStationsByCity.java</url>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Mail/tls/Sender.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/Manager/TripManagerHandler.java</url>
           <line>33</line>
           <properties />
-          <option name="timeStamp" value="65" />
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Mail/ssl/Sender.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java</url>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="66" />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="69" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="92" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -911,220 +1229,382 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/SuccessResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Autocomplition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="63" column="69" selection-start-line="63" selection-start-column="69" selection-end-line="63" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Step3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/LanguagesObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="121" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="121" />
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#347#355#0" expanded="false" />
+            <element signature="e#897#905#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/payment/Payment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Autocomplition2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1238#1239#0" expanded="false" />
-            <element signature="e#1263#1264#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/SearchTrips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Step2.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33236152">
+          <caret line="380" column="0" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Hash/ComposerData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/BusMangerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Hash/Composer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.4351351">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/Bus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22972973">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/BusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22972973">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/newPayment.jsp">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/Seat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Manager/TripManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/Route.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/TripEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#318#319#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/TripViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Entity/Trip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="125" selection-start-line="17" selection-start-column="125" selection-end-line="17" selection-end-column="125" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1316#1317#0" expanded="false" />
+            <element signature="e#1341#1342#0" expanded="false" />
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+            <element signature="e#1475#1476#0" expanded="false" />
+            <element signature="e#1527#1528#0" expanded="false" />
+            <element signature="e#1566#1567#0" expanded="false" />
+            <element signature="e#1603#1604#0" expanded="false" />
+            <element signature="e#1661#1662#0" expanded="false" />
+            <element signature="e#1713#1714#0" expanded="false" />
+            <element signature="e#1750#1751#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1887#1888#0" expanded="false" />
+            <element signature="e#1924#1925#0" expanded="false" />
+            <element signature="e#1959#1960#0" expanded="false" />
+            <element signature="e#2013#2014#0" expanded="false" />
+            <element signature="e#2061#2062#0" expanded="false" />
+            <element signature="e#2088#2089#0" expanded="false" />
+            <element signature="e#2114#2115#0" expanded="false" />
+            <element signature="e#2149#2150#0" expanded="false" />
+            <element signature="e#2179#2180#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowLanguages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/CitiesManagerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Manager/CitiesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Manager/StationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowTrip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ChangeLanguage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/SearchTrips.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.63245034">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/reservation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Adminka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/StationManagerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/RouteManagerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/StationsObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="180" selection-start-line="38" selection-start-column="180" selection-end-line="38" selection-end-column="180" />
+          <folding>
+            <element signature="e#414#423#0" expanded="false" />
+            <element signature="e#414#423#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/Manager/RouteManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStationsByCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43243244">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="60" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/TripObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="75" selection-start-line="75" selection-start-column="75" selection-end-line="75" selection-end-column="75" />
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+          <folding>
+            <element signature="e#301#307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/reset.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/RoutesObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="e#412#419#0" expanded="false" />
+            <element signature="e#412#419#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Step2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Manager/TripManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75108224">
-          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/CitiesObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowRoutesByCities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowBus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/TripManagerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="15.413794">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#doCompletion#0" expanded="false" />
+            <element signature="n#!!block;n#doCompletion#0" expanded="false" />
+            <element signature="n#!!block;n#doCompletion#0" expanded="false" />
+            <element signature="n#!!block;n#doCompletion#0" expanded="false" />
+            <element signature="n#!!block;n#doCompletion#0" expanded="false" />
+            <element signature="n#!!block;n#doCompletion#0" expanded="false" />
+            <element signature="n#!!block;n#doCompletion#0" expanded="false" />
+            <element signature="n#!!block;n#search_trips#0" expanded="false" />
+            <element signature="n#!!block;n#callbackTrips#0" expanded="false" />
+            <element signature="n#!!block;n#callbackAutocomletion#0" expanded="false" />
+            <element signature="n#!!block;n#appendCity#0" expanded="false" />
+            <element signature="n#!!block;n#clearTable#0" expanded="false" />
+            <element signature="n#!!block;n#buildTripTable#0" expanded="false" />
+            <element signature="n#!!block;n#chooseTrip#0" expanded="false" />
+            <element signature="n#!!block;n#choosePlace#0" expanded="false" />
+            <element signature="n#!!block;n#goToStep3#0" expanded="false" />
+            <element signature="n#!!block;n#goToPay#0" expanded="false" />
+            <element signature="n#!!block;n#sendPaymentToServer#0" expanded="false" />
+            <element signature="n#!!block;n#callbackPay#0" expanded="false" />
+            <element signature="n#!!block;n#goToCassa#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/database/DBWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/payment/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.481982">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1238#1239#0" expanded="false" />
-            <element signature="e#1263#1264#0" expanded="false" />
+            <marker date="1442508455317" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..missingValue..." />
+            <marker date="1442508455317" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..missingValue..." />
+            <marker date="1442508455317" expanded="true" signature="-1:-1" placeholder="SELECT missi..missingValueWHERE..." />
+            <marker date="1442508455317" expanded="true" signature="-1:-1" placeholder="SELECT missi..missingValueWHERE..." />
+            <marker date="1442508455317" expanded="true" signature="-1:-1" placeholder="SELECT missi..missingValue..." />
+            <marker date="1442508455317" expanded="true" signature="-1:-1" placeholder="SELECT Id FR..trips..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.793103">
-          <caret line="260" column="43" selection-start-line="260" selection-start-column="43" selection-end-line="260" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mail/tls/Sender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Manager/BusManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/DBConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="65" />
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1132,270 +1612,145 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Step3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Manager/BusConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/SearchTrips.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/BusObserer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Contacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Autocomplition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tickets.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Tickets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mail/ssl/SmtpAuthenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mail/ssl/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/reservation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="20.461538">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6080692">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0436046">
-          <caret line="432" column="15" selection-start-line="432" selection-start-column="15" selection-end-line="432" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/NewPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3378016">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/contacts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24495678">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/step3.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.945245">
-          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/step2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048991356">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowCity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/SuccessResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/adminka.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51742625">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state vertical-scroll-proportion="-16.73077">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Tickets:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33793104" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33793104" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>main</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Java EE 6-Java EE 6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33793104" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/SeatViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="230" column="15" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!block;n#sendAdminPanel#0" expanded="false" />
+            <element signature="n#!!block;n#initRequest#0" expanded="false" />
+            <element signature="n#!!block;n#callbackBus#0" expanded="false" />
+            <element signature="n#!!block;n#show_bus#0" expanded="false" />
+            <element signature="n#!!block;n#show_city#0" expanded="false" />
+            <element signature="n#!!block;n#show_station#0" expanded="false" />
+            <element signature="n#!!block;n#show_routes#0" expanded="false" />
+            <element signature="n#!!block;n#show_trips#0" expanded="false" />
+            <element signature="n#!!block;n#getData#0" expanded="false" />
+            <element signature="n#!!block;n#changeAdminPanel#0" expanded="false" />
+            <element signature="n#!!block;n#delete_bus#0" expanded="false" />
+            <element signature="n#!!block;n#edit_bus#0" expanded="false" />
+            <element signature="n#!!block;n#delete_city#0" expanded="false" />
+            <element signature="n#!!block;n#delete_station#0" expanded="false" />
+            <element signature="n#!!block;n#edit_city#0" expanded="false" />
+            <element signature="n#!!block;n#edit_station#0" expanded="false" />
+            <element signature="n#!!block;n#delete_route#0" expanded="false" />
+            <element signature="n#!!block;n#delete_trip#0" expanded="false" />
+            <element signature="n#!!block;n#show_station_autocomplete#0" expanded="false" />
+            <element signature="n#!!block;n#show_routes_autocomplete#0" expanded="false" />
+            <element signature="n#!!block;n#show_buses_autocomplete#0" expanded="false" />
+            <marker date="1442888138154" expanded="true" signature="5428:5440" placeholder="..." />
+            <marker date="1442888138154" expanded="true" signature="5442:5453" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlaceWithPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          <folding>
+            <element signature="method#getIdXY#0;class#SeatPlaceWithPrice#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/SeatPlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="method#getIdXY#0;class#SeatPlace#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/BusConfigObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#387#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Observer/SeatObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
+          <folding>
+            <element signature="e#381#387#0" expanded="true" />
+            <element signature="e#1075#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Manager/ShowBusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81984335">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

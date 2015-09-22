@@ -6,12 +6,12 @@ import java.util.ArrayList;
  * Created by ????? on 14.09.2015.
  */
 public class SeatPlace {
-    int seatId;
-    int seat_num;
-    int row;
-    int place;
+    private long seatId;
+    private int seat_num;
+    private int row;
+    private int place;
 
-    public SeatPlace(int seatId, int seat_num, int row, int place) {
+    public SeatPlace(long seatId, int seat_num, int row, int place) {
         this.seatId = seatId;
         this.seat_num = seat_num;
         this.row = row;
@@ -24,7 +24,7 @@ public class SeatPlace {
         this.place = place;
     }
 
-    public int getSeatId() {
+    public long getSeatId() {
         return seatId;
     }
 

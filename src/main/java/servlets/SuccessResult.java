@@ -5,6 +5,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
@@ -17,6 +18,13 @@ public class SuccessResult extends HttpServlet {
     private static Mail.ssl.Sender sslSender = new Mail.ssl.Sender("kolya.simotyuk@gmail.com", "kolya18121995");
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        if(session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
+
+
         request.setCharacterEncoding("UTF-8");
         sslSender.send("This is Subject", "SSL: This is text!", "kolya.simotyuk@gmail.com", "denis.drabchuk@gmail.com");
         tlsSender.send("This is Subject", "TLS: This is text!", "kolya.simotyuk@gmail.com", "denis.drabchuk@gmail.com");
@@ -38,6 +46,12 @@ public class SuccessResult extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        if(session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
+
         sslSender.send("This is Subject", "SSL: This is text!", "kolya.simotyuk@gmail.com", "denis.drabchuk@gmail.com");
         tlsSender.send("This is Subject", "TLS: This is text!", "kolya.simotyuk@gmail.com", "denis.drabchuk@gmail.com");
     }

@@ -47,11 +47,11 @@
 
 
             <input type="text" class="input"  list="cities" placeholder="Откуда" required max="64" id="from"
-                   onkeyup="doCompletion(this.id);">
+                   oninput="doCompletion(this.id);">
 
             <datalist id="cities">
             </datalist>
-            <input type="text" class="input" placeholder="Куда" required max="64" id="to" onkeyup="doCompletion(this.id);" list="cities">
+            <input type="text" class="input" placeholder="Куда" required max="64" id="to" oninput="doCompletion(this.id);" list="cities">
 
             <input type="date" class="input "id="date"><script>document.getElementById('date').valueAsDate = new Date();</script>
             <input type="submit" class="button" value="Поиск" onClick="search_trips()">

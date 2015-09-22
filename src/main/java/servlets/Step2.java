@@ -17,6 +17,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -29,10 +30,20 @@ public class Step2 extends HttpServlet {
     private ServletContext context;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        HttpSession session = request.getSession();
+        if (session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        if (session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
+
         Integer id = new Integer(request.getParameter("id"));
         ArrayList<Seat> seats = SeatObserver.selectSeats(id);
         ArrayList<SeatPlace> seatPlaces = BusConfigObserver.busConfig(id);
@@ -53,9 +64,9 @@ public class Step2 extends HttpServlet {
 
         for (Seat item : seats) {
             int i = item.getSeat_num();
-            for (SeatPlace place: seatPlaces){
+            for (SeatPlace place : seatPlaces) {
                 if (i == place.getSeat_num())
-                    indexableSeats[place.getPlace()-1][place.getRow()-1] = item;
+                    indexableSeats[place.getPlace() - 1][place.getRow() - 1] = item;
             }
         }
 

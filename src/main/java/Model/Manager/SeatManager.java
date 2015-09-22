@@ -13,14 +13,14 @@ public abstract class SeatManager {
         dbWorker.closeConnection();
     }
 
-    static public void update(int id, long trip, int seat_num, double price, int available) {
+    static public void update(long id, long trip, int seat_num, double price, int available) {
         String query = "UPDATE seats SET trip = " + trip + ", seat_num = "+ seat_num +", "+ price +", "+ available +" WHERE Id = " + id;
         DBWorker dbWorker = new DBWorker();
         dbWorker.execute(query);
         dbWorker.closeConnection();
     }
 
-    static public void delete(int id) {
+    static public void delete(long id) {
         String query = "DELETE FROM seats WHERE Id = " + id;
         DBWorker dbWorker = new DBWorker();
         dbWorker.execute(query);

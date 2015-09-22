@@ -17,6 +17,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -31,12 +32,22 @@ public class Step3 extends HttpServlet {
     private ServletContext context;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        HttpSession session = request.getSession();
+        if(session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        if(session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
+
         Integer id = new Integer(request.getParameter("id"));
-        String query = "SELECT cities1.name, cities2.name, stations1.name, stations2.name, trips.departure, trips.arrival, seats.price FROM\n" +
+        String query = "SELECT cities1.name_"+lang+", cities2.name_"+lang+", stations1.name_"+lang+", stations2.name_"+lang+", trips.departure, trips.arrival, seats.price FROM\n" +
                 "                cities cities1, cities cities2, stations stations1, stations stations2, trips, seats, routes WHERE                \n" +
                 "                       seats.Id = " + id + "\n" +
                 "                       AND\n" +

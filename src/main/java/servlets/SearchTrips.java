@@ -12,6 +12,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Date;
 import java.util.ArrayList;
@@ -25,13 +26,22 @@ public class SearchTrips extends HttpServlet {
     private ServletContext context;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
+
+        HttpSession session = request.getSession();
+        if(session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
+
         String from = request.getParameter("from");
         String to = request.getParameter("to");
         String date = request.getParameter("date");
         StringBuffer sb = new StringBuffer();
         response.setCharacterEncoding("UTF-8");
 
-        ArrayList<TripViewer> tripViewers = TripObserver.findTripsViewers(from, to, date);
+        ArrayList<TripViewer> tripViewers = TripObserver.findTripsViewers(from, to, date, lang);
         for (TripViewer item : tripViewers) {
             sb.append("<trip>");
             sb.append("<datefromtime>" + String.format("%tR", item.getDepartureTime()) + "</datefromtime>");
@@ -50,6 +60,12 @@ public class SearchTrips extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+        if(session.isNew()) {
+            session.setAttribute("lang", "en");
+        }
+        String lang = (String) session.getAttribute("lang");
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("/reservation.jsp");
         dispatcher.forward(request, response);
     }

@@ -18,7 +18,7 @@ import java.util.Iterator;
 /**
  * Created by Денис on 13.09.2015.
  */
-@WebServlet("/autocomplete")
+@WebServlet("/autocomplete1")
 public class Autocomplition extends HttpServlet {
     private static String str;
     private ServletContext context;
@@ -61,7 +61,7 @@ public class Autocomplition extends HttpServlet {
                                             .concat(city.getLastName().toLowerCase()).startsWith(targetId)*/) {
                         sb.append("<city>");
                         sb.append("<id>" + city.getId() + "</id>");
-                        sb.append("<firstName>" + city.getName() + "</firstName>");
+                        sb.append("<name>" + city.getName() + "</name>");
                         //sb.append("<lastName>" + city.getLastName() + "</lastName>");
                         sb.append("</city>");
                         namesAdded = true;
@@ -78,14 +78,14 @@ public class Autocomplition extends HttpServlet {
                 response.setStatus(HttpServletResponse.SC_NO_CONTENT);
             }
         }
-        if (action.equals("lookup")) {
+        /*if (action.equals("lookup")) {
 
             // put the target composer in the request scope to display
             if ((targetId != null) && cities.containsKey(targetId.trim())) {
                 request.setAttribute("composer", cities.get(targetId));
                 context.getRequestDispatcher("Reservation.jsp").forward(request, response);
             }
-        }
+        }*/
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)

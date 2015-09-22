@@ -26,4 +26,22 @@ public abstract class SeatObserver {
         }
         return seats;
     }
+
+    public static ArrayList<SeatPlaceWithPrice> selectSeatsWithPrice(long tripId) {
+        ArrayList<SeatPlaceWithPrice> res = new ArrayList<SeatPlaceWithPrice>();
+        ResultSet resultSet = null;
+        String query = "SELECT seats.Id, seats.seat_num, seats.price, seats.availability, bus_config.row, bus.config.place FROM bus_config, seats WHERE bus_config.bus = (SELECT bus FROM trips WHERE Id = " + tripId + ")" +
+                "AND seats.seat_num = bus_config.seat " +
+                "AND seats.bus = (SELECT bus FROM trips WHERE Id = " + tripId + ")";
+        DBWorker dbWorker = new DBWorker();
+        resultSet = dbWorker.executeQuery(query);
+        try {
+            while (resultSet.next()) {
+                res.add(new SeatPlaceWithPrice(resultSet.getLong(1), resultSet.getInt(2), resultSet.getInt(5), resultSet.getInt(6), resultSet.getDouble(3), resultSet.getByte(4)));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return res;
+    }
 }
